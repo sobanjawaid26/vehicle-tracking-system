@@ -40,4 +40,4 @@ Microservices architecture includes various components that work together to ach
 
 
 
-***Note :*** Reference has been taken from Ahmet Erdoğan.
+***Note :*** *Reference has been taken from Ahmet Erdoğan.*
