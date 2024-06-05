@@ -14,7 +14,7 @@ Users with the CompanyAdmin role have powers such as registering vehicles to the
 - Spring Cloud Gateway
 - Spring Cloud OpenFeign
 - Netflix Eureka Server
-- PostgreSQL
+- MySQL
 - Lombok
 - MapStruct
 - Swagger
