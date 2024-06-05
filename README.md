@@ -39,3 +39,5 @@ Microservices architecture includes various components that work together to ach
 **DTOs (Data Transfer Objects) :** It is used for data transfer between layers and external clients.
 
 
+
+***Note :*** Reference has been taken from Ahmet Erdoğan.
