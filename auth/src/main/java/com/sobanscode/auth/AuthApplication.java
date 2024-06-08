@@ -6,7 +6,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-//@ImportAutoConfiguration({FeignAutoConfiguration.class})
 public class AuthApplication {
 
     public static void main(String[] args) {
