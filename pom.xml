@@ -12,6 +12,7 @@
     <module>vehicle</module>
     <module>user</module>
     <module>eureka-server</module>
+      <module>auth</module>
   </modules>
 
   <name>vehicle-tracking-system</name>
