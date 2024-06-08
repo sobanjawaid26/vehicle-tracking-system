@@ -1,0 +1,21 @@
+#version: "3"
+#services:
+#  user:
+#    build: ./user
+#    ports:
+#      - "8083:8083"
+#    networks:
+#      - organization-mysql
+#    depends_on:
+#      - mysqldb
+#
+#  mysqldb:
+#    image: mysql:8
+#    networks:
+#      - organization-mysql
+#    environment:
+#      - MYSQL_ROOT_PASSWORD=password
+#      - MYSQL_DATABASE=organizationdb
+#
+#networks:
+#  organization-mysql:
