@@ -13,6 +13,7 @@
     <module>user</module>
     <module>eureka-server</module>
       <module>auth</module>
+      <module>api-gateway</module>
   </modules>
 
   <name>vehicle-tracking-system</name>
