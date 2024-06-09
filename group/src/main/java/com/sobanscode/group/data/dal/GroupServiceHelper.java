@@ -16,4 +16,16 @@ public class GroupServiceHelper {
         this.userGroupAuthRepository = userGroupAuthRepository;
     }
 
+    //TODO saveGroup
+    //TODO saveUserGroupAuth
+    //TODO getGroupByIdAndCompanyId
+    //TODO saveGroupToGroup
+    //TODO getChildren
+    //TODO getUserGroupAuth
+    //TODO findRootGroupsByCompanyId
+    //TODO getParent
+    //TODO deleteGroupToGroup
+    //TODO deleteGroupToGroupByParentIdOrChildId
+    //TODO deleteGroup
+    //TODO deleteUserGroupAuthByGroupId
 }
