@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Repository
 public interface IUserGroupAuthRepository extends JpaRepository<UserGroupAuthorization, Long> {
-    @Query("SELECT new Group (g.id, g.name, g.company, g.root) FROM UserGroupAuthorization ug, Group g WHERE ug.user.id = :userId and ug.group.id = g.id")
+    @Query("SELECT g.id, g.name, g.company, g.root FROM UserGroupAuthorization ug, Group g WHERE ug.user.id = :userId and ug.group.id = g.id")
     Set<Group> findAllGroupsByUser(@Param("userId") long userId);
 
     void deleteByGroupId(long groupId);
