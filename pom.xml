@@ -15,6 +15,7 @@
       <module>auth</module>
       <module>api-gateway</module>
       <module>company</module>
+      <module>group</module>
   </modules>
 
   <name>vehicle-tracking-system</name>
