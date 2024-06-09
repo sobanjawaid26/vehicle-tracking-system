@@ -1,0 +1,19 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: company
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/company
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: true
+        globally_quoted_identifiers: true
+    show-sql: true
