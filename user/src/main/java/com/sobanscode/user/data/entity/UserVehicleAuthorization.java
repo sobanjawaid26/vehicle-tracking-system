@@ -10,7 +10,7 @@ import lombok.*;
 @Getter
 @Setter
 @Entity
-@Table(name = "user_vehicle_authorizations")
+@Table(name = "user_vehicle_authorization")
 public class UserVehicleAuthorization {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
